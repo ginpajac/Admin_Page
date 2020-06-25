@@ -60,10 +60,10 @@
                   </li>
                   <li><a><i class="fa fa-edit"></i> Reportes <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="form.html">Reporte ofertas</a></li>
-                      <li><a href="form_advanced.html">Reporte canjes</a></li>
-                      <li><a href="form_validation.html">Reporte de puntos de venta</a></li>
-                      <li><a href="form_wizards.html">Reporte de productos</a></li>
+                      <li><a href="reporte.html">Reporte ofertas</a></li>
+                      <li><a href="reporte.html">Reporte canjes</a></li>
+                      <li><a href="reporte.html">Reporte de puntos de venta</a></li>
+                      <li><a href="reporte.html">Reporte de productos</a></li>
                     </ul>
                   </li>
 
@@ -179,7 +179,7 @@
           <div class="">
             <div class="page-title">
               <div class="title_left">
-                <h3>Configuracion del negocio</h3>
+                <h3>Crear nueva oferta</h3>
               </div>
 
             </div>
@@ -193,33 +193,37 @@
 
                     <form class="form-horizontal form-label-left" novalidate>
 
-                      <span class="section">Informacion de la empresa</span>
+                      <span class="section">Detalles de la Oferta</span>
 
                       <div class="item form-group">
-                        <label class="col-form-label col-md-3 col-sm-3 label-align" for="name">Nombre del negocio
+                        <label class="col-form-label col-md-3 col-sm-3 label-align" for="name">Nombre de la oferta
                         </label>
                         <div class="col-md-6 col-sm-6">
-                          <input id="name" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" placeholder="Empresa" required="required" type="text">
+                          <input id="name" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" placeholder="Oferta" required="required" type="text">
                         </div>
                       </div>
                       <div class="item form-group">
-                        <label class="col-form-label col-md-3 col-sm-3 label-align" for="namePoints">Nombre de los puntos
+                        <label class="col-form-label col-md-3 col-sm-3 label-align" for="namePoints">Puntos
                         </label>
                         <div class="col-md-6 col-sm-6">
-                          <input id="namePoints" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" placeholder="Puntos" required="required" type="text">
+                          <input id="namePoints" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" placeholder="0" required="required" type="text">
                         </div>
                       </div>
                       <div class="item form-group">
-                        <label class="col-form-label col-md-3 col-sm-3 label-align" for="logo">Logo del negocio
+                        <label class="col-form-label col-md-3 col-sm-3 label-align" for="namePoints">Estado
                         </label>
                         <div class="col-md-6 col-sm-6">
-                          <div class="btn-group">
-                            <a class="btn" title="Insert picture (or just drag & drop)" id="pictureBtn"><i class="fa fa-picture-o"></i></a>
-                            <input type="file" data-role="magic-overlay" data-target="#pictureBtn" data-edit="insertImage" />
-                          </div>
+                          <input id="namePoints" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" placeholder="activo" required="required" type="text">
                         </div>
                       </div>
-
+                      <div class="item form-group">
+                        <label class="col-form-label col-md-3 col-sm-3 label-align" for="namePoints">Productos
+                        </label>
+                        <div class="col-md-6 col-sm-6">
+                          <input id="namePoints" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" placeholder="productos" required="required" type="text">
+                        </div>
+                      </div>
+                      
                       <div class="ln_solid"></div>
                       <div class="form-group">
                         <div class="col-md-6 offset-md-3">
@@ -237,12 +241,6 @@
         <!-- /page content -->
 
         <!-- footer content -->
-        <footer>
-          <div class="pull-right">
-            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
-          </div>
-          <div class="clearfix"></div>
-        </footer>
         <!-- /footer content -->
       </div>
     </div>
